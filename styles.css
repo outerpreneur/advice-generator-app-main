@@ -43,6 +43,7 @@ body {
   align-items: center;
   position: relative;
   border-radius: 10px;
+  padding: 1em;
 }
 
 .inner-container {
@@ -52,6 +53,7 @@ body {
   justify-content: space-around;
   align-content: space-around;
   gap: 40px;
+  padding: 1em;
 }
 
 .advice-title {
@@ -96,7 +98,10 @@ body {
     align-items: flex-start;
   }
   .container {
-    width: 95%;
+    width: 85%;
     top: 16%;
+  }
+  img {
+    width: 80%;
   }
 }
