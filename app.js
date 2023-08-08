@@ -4,7 +4,7 @@ const adviceId = document.getElementById("adviceId");
 
 adviceButton.addEventListener("click", async () => {
   try {
-    const response = await fetch(".https://api.adviceslip.com/advice");
+    const response = await fetch("https://api.adviceslip.com/advice");
     const data = await response.json();
     console.log(data);
     alert("fucka");
